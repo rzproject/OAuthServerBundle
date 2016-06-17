@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <parameters>
+        <parameter key="rz.oauth_server.admin.access_token.class">Rz\OAuthServerBundle\Admin\AccessTokenAdmin</parameter>
+        <parameter key="rz.oauth_server.admin.client.class">Mosaic\SsoBundle\Admin\ClientAdmin</parameter>
+    </parameters>
+
+    <services>
+        <service id="rz.oauth_server.admin.access_token" class="%rz.oauth_server.admin.access_token.class%">
+            <tag name="sonata.admin" manager_type="orm" group="sso" label="menu_item_api_access_token"  show_in_dashboard="false" label_catalogue="%rz.oauth_server.admin.access_token.translation_domain%" label_translator_strategy="sonata.admin.label.strategy.underscore" />
+            <argument />
+            <argument>%rz.oauth_server.admin.access_token.entity%</argument>
+            <argument>%rz.oauth_server.admin.access_token.controller%</argument>
+
+            <call method="setTranslationDomain">
+                <argument>%rz.oauth_server.admin.access_token.translation_domain%</argument>
+            </call>
+        </service>
+
+        <service id="rz.oauth_server.admin.client" class="%rz.oauth_server.admin.client.class%">
+            <tag name="sonata.admin" manager_type="orm" group="sso" label="menu_item_api_client"  show_in_dashboard="false" label_catalogue="%rz.oauth_server.admin.client.translation_domain%" label_translator_strategy="sonata.admin.label.strategy.underscore" />
+            <argument />
+            <argument>%rz.oauth_server.admin.client.entity%</argument>
+            <argument>%rz.oauth_server.admin.client.controller%</argument>
+
+            <call method="setTranslationDomain">
+                <argument>%rz.oauth_server.admin.client.translation_domain%</argument>
+            </call>
+        </service>
+    </services>
+
+</container>
+

@@ -1,0 +1,30 @@
+{
+    "name": "rz/oauth-server-bundle",
+    "type": "symfony-bundle",
+    "description": "Provides admin interface for FOSOAuthServer Bundle",
+    "keywords": ["symfony2", "rz-project"],
+    "homepage": "https://github.com/rzproject/OAuthServerBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mell zamora",
+            "email": "mellzamora@outlook.com",
+            "homepage": "https://github.com/rzproject"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "rz/core-bundle": "2.0.0.*",
+        "rz/admin-bundle": "2.0.0.*",
+        "rz/user-bundle": "2.0.0.*",
+        "friendsofsymfony/oauth-server-bundle": "~1.5"
+    },
+    "autoload": {
+        "psr-4": { "Rz\\OAuthServerBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.0.x-dev"
+        }
+    }
+}

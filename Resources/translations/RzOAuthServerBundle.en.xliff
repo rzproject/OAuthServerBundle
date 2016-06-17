@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="main_menu_api">
+                <source>main_menu_api</source>
+                <target>API</target>
+            </trans-unit>
+            <trans-unit id="menu_item_api_client">
+                <source>menu_item_api_client</source>
+                <target>Client</target>
+            </trans-unit>
+            <trans-unit id="menu_item_api_access_token">
+                <source>menu_item_api_access_token</source>
+                <target>Access Token</target>
+            </trans-unit>
+            <trans-unit id="rz_oauth_server_tab_settings">
+                <source>rz_oauth_server_tab_settings</source>
+                <target>Settings</target>
+            </trans-unit>
+            <trans-unit id="rz_oauth_server_tab_general">
+                <source>rz_oauth_server_tab_general</source>
+                <target>General</target>
+            </trans-unit>
+            <trans-unit id="rz_oauth_server_tab_urls">
+                <source>rz_oauth_server_tab_urls</source>
+                <target>URL's</target>
+            </trans-unit>
+            <trans-unit id="form.label_get_id">
+                <source>form.label_get_id</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="form.label_code">
+                <source>form.label_code</source>
+                <target>Client Code</target>
+            </trans-unit>
+            <trans-unit id="form.label_name">
+                <source>form.label_name</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="form.label_description">
+                <source>form.label_description</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="form.label_get_public_id">
+                <source>form.label_get_public_id</source>
+                <target>Client ID</target>
+            </trans-unit>
+            <trans-unit id="form.label_secret">
+                <source>form.label_secret</source>
+                <target>Client Secret</target>
+            </trans-unit>
+            <trans-unit id="form.label_redirect_uris">
+                <source>form.label_redirect_uris</source>
+                <target>Redirect URL's</target>
+            </trans-unit>
+            <trans-unit id="list.label_id">
+                <source>list.label_id</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="list.label_code">
+                <source>list.label_code</source>
+                <target>Client Code</target>
+            </trans-unit>
+            <trans-unit id="list.label_name">
+                <source>list.label_name</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="list.label_description">
+                <source>list.label_description</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="list.label_get_public_id">
+                <source>list.label_get_public_id</source>
+                <target>Client ID</target>
+            </trans-unit>
+            <trans-unit id="list.label_secret">
+                <source>list.label_secret</source>
+                <target>Client Secret</target>
+            </trans-unit>
+            <trans-unit id="list.label_redirect_uris">
+                <source>list.label_redirect_uris</source>
+                <target>Redirect URL's</target>
+            </trans-unit>
+            <trans-unit id="filter.label_id">
+                <source>filter.label_id</source>
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="filter.label_code">
+                <source>filter.label_code</source>
+                <target>Client Code</target>
+            </trans-unit>
+            <trans-unit id="filter.label_name">
+                <source>filter.label_name</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="filter.label_description">
+                <source>filter.label_description</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="filter.label_get_public_id">
+                <source>filter.label_get_public_id</source>
+                <target>Client ID</target>
+            </trans-unit>
+            <trans-unit id="filter.label_secret">
+                <source>filter.label_secret</source>
+                <target>Client Secret</target>
+            </trans-unit>
+            <trans-unit id="filter.label_redirect_uris">
+                <source>filter.label_redirect_uris</source>
+                <target>Redirect URL's</target>
+            </trans-unit>
+            <trans-unit id="show.label_code">
+                <source>show.label_code</source>
+                <target>Client Code</target>
+            </trans-unit>
+            <trans-unit id="show.label_name">
+                <source>show.label_name</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="show.label_description">
+                <source>show.label_description</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="show.label_get_public_id">
+                <source>show.label_get_public_id</source>
+                <target>Client ID</target>
+            </trans-unit>
+            <trans-unit id="show.label_secret">
+                <source>show.label_secret</source>
+                <target>Client Secret</target>
+            </trans-unit>
+            <trans-unit id="show.label_redirect_uris">
+                <source>show.label_redirect_uris</source>
+                <target>Redirect URL's</target>
+            </trans-unit>
+            <trans-unit id="breadcrumb.link_client_list">
+                <source>breadcrumb.link_client_list</source>
+                <target>Client</target>
+            </trans-unit>
+            <trans-unit id="list.label_token">
+                <source>list.label_token</source>
+                <target>Token</target>
+            </trans-unit>
+            <trans-unit id="list.label_expires_at">
+                <source>list.label_expires_at</source>
+                <target>Expires At</target>
+            </trans-unit>
+            <trans-unit id="list.label_created_at">
+                <source>list.label_created_at</source>
+                <target>Created Date</target>
+            </trans-unit>
+					 <trans-unit id="filter.label_token">
+                <source>filter.label_token</source>
+                <target>Token</target>
+            </trans-unit>
+            <trans-unit id="filter.label_expires_at">
+                <source>filter.label_expires_at</source>
+                <target>Expires At</target>
+            </trans-unit>
+            <trans-unit id="filter.label_created_at">
+                <source>filter.label_created_at</source>
+                <target>Created Date</target>
+            </trans-unit>
+            <trans-unit id="list.label_client">
+                <source>list.label_client</source>
+                <target>Client</target>
+            </trans-unit>
+            <trans-unit id="filter.label_client">
+                <source>filter.label_client</source>
+                <target>Client</target>
+            </trans-unit>
+            <trans-unit id="breadcrumb.link_access_token_list">
+                <source>breadcrumb.link_access_token_list</source>
+                <target>Access Token</target>
+            </trans-unit>
+            <trans-unit id="list.label_scope">
+                <source>list.label_scope</source>
+                <target>Scope</target>
+            </trans-unit>
+            <trans-unit id="filter.label_scope">
+                <source>filter.label_scope</source>
+                <target>Scope</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

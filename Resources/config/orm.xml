@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="rz.oauth_server.entity.manager.access_token.class">Rz\OAuthServerBundle\Entity\AccessTokenManager</parameter>
+        <parameter key="rz.oauth_server.entity.manager.auth_code.class">Rz\OAuthServerBundle\Entity\AuthCodeManager</parameter>
+        <parameter key="rz.oauth_server.entity.manager.client.class">Rz\OAuthServerBundle\Entity\ClientManager</parameter>
+        <parameter key="rz.oauth_server.entity.manager.refresh_token.class">Rz\OAuthServerBundle\Entity\RefreshTokenManager</parameter>
+    </parameters>
+
+    <services>
+        <service id="rz.oauth_server.manager.access_token" class="%rz.oauth_server.entity.manager.access_token.class%">
+            <argument>%rz.oauth_server.access_token.entity%</argument>
+            <argument type="service" id="doctrine" />
+        </service>
+        <service id="rz.oauth_server.manager.auth_code" class="%rz.oauth_server.entity.manager.auth_code.class%">
+            <argument>%rz.oauth_server.auth_code.entity%</argument>
+            <argument type="service" id="doctrine" />
+        </service>
+        <service id="rz.oauth_server.manager.client" class="%rz.oauth_server.entity.manager.client.class%">
+            <argument>%rz.oauth_server.client.entity%</argument>
+            <argument type="service" id="doctrine" />
+        </service>
+        <service id="rz.oauth_server.manager.refresh_token" class="%rz.oauth_server.entity.manager.refresh_token.class%">
+            <argument>%rz.oauth_server.refresh_token.entity%</argument>
+            <argument type="service" id="doctrine" />
+        </service>
+    </services>
+</container>

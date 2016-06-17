@@ -1,0 +1,5 @@
+{% extends 'RzAdminBundle:CRUD:base_list_field.html.twig' %}
+
+{% block field %}
+	{{ object.expiresAt|date("m/d/Y h:i:s") }}
+{% endblock %}

@@ -1,0 +1,25 @@
+<div class="col-lg-6 col-lg-offset-3 centered">
+	<h1>OAuth API Authorization</h1>
+	<p>By clicking Allow, you allow this app and sandbox to use your information in accordance with their respective terms of service and privacy policies.</p>
+	<p>You can change this and other Account Permissions at any time.</p>
+	<div class="centered">
+		{{ form_start(form, {'method': 'POST', 'action': path('fos_oauth_server_authorize'), 'label_attr': {'class': 'fos_oauth_server_authorize'} }) }}
+		<div class="btn-group centered">
+			<button type="submit" name="accepted" class="btn btn-success">{{ 'authorize.accept'|trans({}, 'FOSOAuthServerBundle') }}</button>
+			<button type="submit" name="rejected"class="btn btn-danger">{{ 'authorize.reject'|trans({}, 'FOSOAuthServerBundle') }}</button>
+		</div>
+		{{ form_row(form.client_id) }}
+		{{ form_row(form.response_type) }}
+		{{ form_row(form.redirect_uri) }}
+		{{ form_row(form.state) }}
+		{{ form_row(form.scope) }}
+		{{ form_rest(form) }}
+		</form>
+	</div>
+	<br />
+	<div class='alert alert-default alert-info'>
+		<strong>This is the default message</strong>
+		<div>This file can be found in <code>RzOAuthServerBundle:Authorize:authorize.html.twig</code>.</div>
+	</div>
+</div>
+
