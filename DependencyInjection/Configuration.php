@@ -18,7 +18,6 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-
         $treeBuilder = new TreeBuilder();
         $node = $treeBuilder->root('rz_oauth_server');
         $this->addManagerSection($node);

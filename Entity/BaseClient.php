@@ -4,7 +4,6 @@ namespace Rz\OAuthServerBundle\Entity;
 
 use Rz\OAuthServerBundle\Model\Client;
 
-
 abstract class BaseClient extends Client
 {
     /**

@@ -134,7 +134,7 @@ class RzOAuthServerExtension extends Extension
             'cascade' => array(
                 'persist',
             ),
-            'mappedBy' => NULL,
+            'mappedBy' => null,
             'inversedBy' => 'accessToken',
             'joinColumns' => array(
                 array(
@@ -151,7 +151,7 @@ class RzOAuthServerExtension extends Extension
             'cascade' => array(
                 'persist',
             ),
-            'mappedBy' => NULL,
+            'mappedBy' => null,
             'inversedBy' => 'accessToken',
             'joinColumns' => array(
                 array(
@@ -170,7 +170,7 @@ class RzOAuthServerExtension extends Extension
             'cascade' => array(
                 'persist',
             ),
-            'mappedBy' => NULL,
+            'mappedBy' => null,
             'inversedBy' => 'accessToken',
             'joinColumns' => array(
                 array(
@@ -187,7 +187,7 @@ class RzOAuthServerExtension extends Extension
             'cascade' => array(
                 'persist',
             ),
-            'mappedBy' => NULL,
+            'mappedBy' => null,
             'inversedBy' => 'accessToken',
             'joinColumns' => array(
                 array(
@@ -208,7 +208,7 @@ class RzOAuthServerExtension extends Extension
             'cascade' => array(
                 'persist',
             ),
-            'mappedBy' => NULL,
+            'mappedBy' => null,
             'inversedBy' => 'accessToken',
             'joinColumns' => array(
                 array(
@@ -225,7 +225,7 @@ class RzOAuthServerExtension extends Extension
             'cascade' => array(
                 'persist',
             ),
-            'mappedBy' => NULL,
+            'mappedBy' => null,
             'inversedBy' => 'accessToken',
             'joinColumns' => array(
                 array(
